@@ -9,7 +9,6 @@ CREATE TABLE [dbo].[FactInternetSales](
 	[SalesTerritoryKey] [int] NOT NULL,
 	[SalesOrderNumber] [nvarchar](20) NOT NULL,
 	[SalesOrderLineNumber] [tinyint] NOT NULL,
-	[RevisionNumber] [tinyint] NOT NULL,
 	[OrderQuantity] [smallint] NOT NULL,
 	[UnitPrice] [money] NOT NULL,
 	[ExtendedAmount] [money] NOT NULL,
@@ -25,4 +24,5 @@ CREATE TABLE [dbo].[FactInternetSales](
 	[OrderDate] [datetime] NULL,
 	[DueDate] [datetime] NULL,
 	[ShipDate] [datetime] NULL,
+	[ShipDate2] [datetime] NULL,
 )
