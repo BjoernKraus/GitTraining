@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[FactInternetSales](
-	[ProductKey] [int] NULL,
+	[ProductKey] [Bigint] NULL,
 	[OrderDateKey] [int] NOT NULL,
 	[DueDateKey] [int] NOT NULL,
 	[ShipDateKey] [int] NOT NULL,
